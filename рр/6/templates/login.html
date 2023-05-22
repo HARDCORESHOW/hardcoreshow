@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Страница авторизации</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.7.4/css/uikit.min.css">
+</head>
+<body>
+    <div class="uk-container uk-margin-large-top">
+        <h1>Страница авторизации</h1>
+        <form method="POST" action="/login">
+            <div class="uk-margin">
+                <input class="uk-input" type="text" name="username" placeholder="Логин" required>
+            </div>
+            <div class="uk-margin">
+                <input class="uk-input" type="password" name="password" placeholder="Пароль" required>
+            </div>
+            <div class="uk-margin">
+                <button class="uk-button uk-button-primary" type="submit">Войти</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+
